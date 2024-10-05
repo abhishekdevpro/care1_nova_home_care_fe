@@ -11,11 +11,13 @@ import FaqSection from '../Components/Home/Faq'
 import ContactForm from '../Components/Home/Contact'
 import AppointmentBooking from '../Components/Home/Appointment'
 import Footer from '../Components/Home/Footer'
+import Navbar from '../Components/Home/Navbar'
 
 
 const Home = () => {
   return (
     <div>
+      <Navbar />
        <Header />
        <HeroSection />
        {/* <ServiceGrid /> */}

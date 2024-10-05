@@ -35,30 +35,30 @@ const Navbar = () => {
             />
           </div>
           <div className="hidden sm:flex items-center space-x-8">
-            <Link
+            {/* <Link
              to={'/jobseeker-form'}
               className="bg-teal-700 text-white px-6 py-3 rounded-full text-lg font-medium hover:bg-teal-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
             >
               Jobs
-            </Link>
-            <a
+            </Link> */}
+            {/* <a
               href="#"
               className="bg-teal-700 text-white px-6 py-3 rounded-full text-lg font-medium hover:bg-teal-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
             >
               Partner with Us
-            </a>
-            <a
-              href="#"
+            </a> */}
+            <Link
+             to={'/login'}
               className="bg-teal-700 text-white px-6 py-3 rounded-full text-lg font-medium hover:bg-teal-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
             >
               Login
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link 
+            to={'/register'}
               className="bg-teal-700 text-white px-6 py-3 rounded-full text-lg font-medium hover:bg-teal-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
             >
               Signup
-            </a>
+            </Link>
             <button
               onClick={() => setIsSliderOpen(!isSliderOpen)}
               className="text-gray-500 hover:text-gray-600 focus:outline-none"
